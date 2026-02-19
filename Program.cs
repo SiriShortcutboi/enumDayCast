@@ -2,10 +2,15 @@
 
 public class Program
 {
-
+    static string weekdayInput = "4";
+    static int weekdayProcessor = 0;
     public static void Main()
     {
-        int weekdaying = 4;
+        Console.WriteLine("Pick any number 1-7 & I'll tell you what" +
+            " day it is");
+        weekdayInput = Console.ReadLine();
+        weekdayProcessor = int.Parse(weekdayInput);
+        int weekdaying = weekdayProcessor;
         switch ((weekDay)weekdaying)
         {
         
