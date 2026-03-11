@@ -10,6 +10,8 @@ public class Program
             " day it is");
         weekdayInput = Console.ReadLine();
         weekdayProcessor = int.Parse(weekdayInput);
+        
+        
         int weekdaying = weekdayProcessor;
         switch ((weekDay)weekdaying)
         {
@@ -28,11 +30,11 @@ public class Program
                 Console.WriteLine("That day is Thursday"); 
                 break;
             case weekDay.Friday:
-                Console.WriteLine("That day is Friday");
+                Console.WriteLine("That day is Friday" + 
+                "they have swing dancing night at institute"); 
                 break;
             case weekDay.Saturday:
-                Console.WriteLine("That day is Saturday, " + 
-                "the day before swing dancing night"); 
+                Console.WriteLine("That day is Saturday, "
                 break;
                 
 
