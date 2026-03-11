@@ -34,7 +34,7 @@ public class Program
                 "they have swing dancing night at institute"); 
                 break;
             case weekDay.Saturday:
-                Console.WriteLine("That day is Saturday, "
+                Console.WriteLine("That day is Saturday");
                 break;
                 
 
